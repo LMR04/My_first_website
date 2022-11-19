@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SORC | Contacto</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="logo.png" alt="" class="logo">
+        <img src="img/menu.svg" alt="" class="rayas">
+        <nav class="menu">
+            <a href="index.html" class="m">INICIO</a>
+            <a href="alquiler.html #expertos" class="m">ALQUILER</a>
+            <a href="servicios.html #servicios" class="m">SERVICIOS</a>
+            <a href="galería.html #galeria" class="m">GALERÍA</a>
+            <a href="contacto.html #contacto" class="m">CONTACTO</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Te acompañamos en cada evento</h1>
+            <p class="copy">Porque en tu sueño cada detalle cuenta</p>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="contacto">
+            <h2 class="subtitulo">¡ Contáctanos !</h2>
+            <div class="contenedor_servicio">
+                <form action="https://formspree.io/mgepvwaa" target="_blank" method="post">
+                    <input type="hidden" name="_next" value="gracias1.html" />
+                    <div class="formu">
+                        <ul clas>
+                            <br></br>
+                            <li class="h">Nombre y Apellido</li>
+                            <li class="h"><input id="nombre" class="box" type="text" name="nombre" style="width: 200px; height: 25px"/></li>
+                            <br></br>
+                            <li class="h">Telefono</li>
+                            <li class="h"><input id="telefono" class="box" type="text" name="telefono" maxlength="9" style="width: 200px; height: 25px"/></li>
+                            <br></br>
+                            <li class="h">E-mail</li>
+                            <li class="h"><input id="email" class="box" type="email" name="mail" style="width: 200px; height: 25px"/></li>
+                            <br></br>
+                            <li class="h">Mensaje</li>
+                            <li class="h"><textarea id="mensaje" class="box" name="mensaje"></textarea></li> 
+                            <br></br>
+                            <div class="botones">
+                                <li class="h"><input class="button" type="submit" style="float: left" value="Enviar" name="Enviar"/>
+                                <input class="button" style="float: right" type="reset" value="Borrar"/>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </form>
+                <div class="checklist_servicio ">
+                    <div id="texta" class="service">
+                        <h3 class="n_service"></span></h3>
+                        <p>Consúltanos o presenta tu reclamo</p>
+                        <p>¡Llámanos!</p>
+                        <p>+51 990 882 198</p> 
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section>
+            <iframe class="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-78.23952466249466%2C-5.89584260662704%2C-78.23590368032457%2C-5.893884275858799&amp;layer=mapnik&amp;marker=-5.89486344210679%2C-78.2377141714096" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-5.89486&amp;mlon=-78.23771#map=19/-5.89486/-78.23771&amp;layers=N" target="_blank" class="vermap">Ver mapa más grande</a></small>
+        </section>
+    </main>
+    <footer class="cont" id="contacto">
+        <div class="contenedor footer_content">
+            <div class="contact_us">
+                <h2 class="brand">SORC eventos</h2>
+                <p>Somos expertos en hacer realidad tus sueños</p>
+            </div>
+            <div class="social_media">
+                <a href="https://www.facebook.com/luismiguel.rubio.9465/" target="_blank" class="social_media_icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com/LuisMiguelRub12" target="_blank"  class="social_media_icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="https://www.instagram.com/m_rubio04/" target="_blank"  class="social_media_icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCvfYrJ8TiDYvi9ShjpTln1g?view_as=subscriber" target="_blank" class="social_media_icon">
+                    <i class='bx bxl-youtube' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html> 
